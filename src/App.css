@@ -1,0 +1,17 @@
+/* App.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  align-content: center;
+  height: 100vh; /* Establece la altura al 100% del viewport (ventana visible del navegador) */
+}
+
+.content {
+  text-align: center; /* Centra el contenido horizontalmente */
+  margin-top: 10px;
+  border: 2px solid salmon;
+  padding: 20px;
+}
